@@ -30,10 +30,13 @@
 
    ```
 4. Edit the file hal.c and hal.h where hal_init() function failed. I just renamed the function to hal_init2().
-5. Edit the file `arduino-lmic/project_config/lmic_project_config.h` and define the correct radio type:
+5. Make sure the following is added to the `platform.ini` file:
    ```
-   #define CFG_eu868 1
+   build_flags =
+    -D ARDUINO_LMIC_PROJECT_CONFIG_H_SUPPRESS
+    -D CFG_eu868=1
+    -D CFG_sx1276_radio=1
    ```
-   Mine is for Europe. Choose the correct one for your location.
+   Mine is for Europe. Choose the correct one for your location. Look at the Readme.md of the LMIC git repo.
 7. pio run -t clean
 8. pio run -t upload
