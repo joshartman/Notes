@@ -5,3 +5,7 @@ The repository is a collection of notes of my battles to getting software to wor
 ## LoRaWAN Gateway
 
 All steps required to get a LoRa Basics™ Station working on a RPi Zero-W and a RAK831 board.
+
+## LoRaWAN on Heltec LoRa ESP32 V2 and PlatformIO
+
+Required code to get LoRa working on a Heltec LoRa ESP32 V2 board with MCCI LoRaWAN LMIC library included in PlatformIO
