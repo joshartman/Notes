@@ -7,3 +7,7 @@ See the Wiki pages for details.
 * LoRa Basics™ Station Gateway (RAK831/RPiW)
 
 * LoRaWAN on Heltec LoRa ESP32 V2 and PlatformIO
+
+* Nethserver 7: Windows 11 22H2 fails to login
+
+* Install Docker on Almalinux 8
